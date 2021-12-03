@@ -1,0 +1,1 @@
+<h1>Hello GK_successfulregistration</h1><a href="GK_login.php">Login Here</a>.

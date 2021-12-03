@@ -1,0 +1,249 @@
+/*css file*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f3f4f6;
+}
+
+.container {
+    width: 0%;
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+.my-form {
+    background: #fff;
+    position: relative;
+    top: 4rem;
+    border-radius: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    margin-right: 5rem;
+}
+
+.single-input {
+    border: 1px solid #c1c1c1;
+    display: flex;
+    margin-bottom: 15px;
+    color: rgb(110, 110, 255);
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 20rem;
+    height: 50px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.single-input input {
+    border: 0px solid #c1c1c1;
+    width: 100%;
+    outline: none;
+    height: 30px;
+    font-size: 18px;
+}
+
+.my-form div div {
+    height: 80px;
+    background-color: rgb(110, 110, 255);
+    width: 27rem;
+    border-radius: 15px 15px 0px 0px;
+    color: black;
+    padding: 0%;
+}
+
+.my-form div div h3 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: xx-large;
+}
+
+form {
+    padding: 30px 50px;
+}
+
+form input {
+    border-radius: 10px 0px 0px 10px;
+    text-align: left;
+    padding-top: 3%;
+}
+
+form span i {
+    border-radius: 10px 0px 0px 10px;
+    color: black;
+    padding: 8px 16px;
+    background-color: rgb(110, 110, 255);
+    font-size: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(110, 110, 255);
+    font-size: x-large;
+}
+
+button {
+    background-color: rgb(110, 110, 255);
+    color: black;
+    width: 20rem;
+    margin-top: 50px;
+    font-size: x-large;
+    text-align: center;
+    height: 50px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+}
+
+.button:hover {
+    background-color: rgb(75, 75, 230);
+    color: blanchedalmond;
+}
+
+h4 {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: normal;
+}
+
+.logo {
+    width: 20rem;
+    background-color: rgb(170, 177, 238);
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    top: 12.1rem;
+    left: 28rem;
+}
+
+.logo:hover {
+    background-color: rgb(75, 75, 230);
+}
+
+.backgroundimg {
+    position: fixed;
+    top: 0rem;
+    left: 20rem;
+    width: 80%;
+    height: 100%;
+    z-index: -3;
+}
+
+.center {
+    text-align: center;
+}
+
+.mobileview {
+    visibility: hidden;
+    color: rgb(71, 71, 251);
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 45%;
+}
+
+.mobileview:hover {
+    color: rgb(63, 63, 211);
+}
+
+.errorSpace {
+    height: auto;
+    width: 20rem;
+}
+
+@media screen and (max-width: 700px) {
+    .logo {
+        width: 10rem;
+        background-color: rgb(170, 177, 238);
+        border-radius: 50%;
+        position: relative;
+        top: 1rem;
+        left: 155%;
+    }
+    .logo:hover {
+        background-color: rgb(75, 75, 230);
+    }
+    .my-form {
+        background: #fff;
+        height: 30rem;
+        position: absolute;
+        top: 9rem;
+        left: 8rem;
+        width: 27rem;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    }
+    .backgroundimg {
+        visibility: hidden;
+    }
+    /* .container {
+    width: 32%;
+    display: flex;
+
+    align-items: center;
+    float: left;
+  } */
+}
+
+
+/* @media screen and (max-width: 400px) {
+  .backgroundimg {
+    display: none;
+  }
+ 
+  .single-input {
+    border: 1px solid #c1c1c1;
+    display: flex;
+    margin-bottom: 15px;
+    color: rgb(110, 110, 255);
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 17rem;
+    height: 50px;
+
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  .single-input input {
+    border: 0px solid #c1c1c1;
+    width: 80%;
+    outline: none;
+    height: 30px;
+    font-size: 18px;
+  }
+  .my-form {
+    background: #fff;
+    position: relative;
+    top: 4rem;
+    border-radius: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    margin-right: 5rem;
+  }
+  .my-form div div {
+    height: 70px;
+    background-color: rgb(110, 110, 255);
+    width: 20rem;
+    border-radius: 15px 15px 0px 0px;
+    color: black;
+    padding: 0%;
+  }
+  .my-form div div h3 {
+    text-align: center;
+    padding-top: 16px;
+    font-size: x-large;
+  }
+  button {
+    background-color: rgb(110, 110, 255);
+    color: black;
+    width: 17rem;
+    margin-top: 50px;
+    font-size: x-large;
+    text-align: center;
+    height: 50px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+  }
+  .container {
+    margin: auto;
+    display: block;
+  }
+} */
